@@ -1,0 +1,11 @@
+/chroot/
+/cache/
+/.build/
+/binary/
+binary.contents
+binary.hybrid.iso
+binary.hybrid.iso.zsync
+binary.package
+binary.packages
+chroot.packages.install
+chroot.packages.live
