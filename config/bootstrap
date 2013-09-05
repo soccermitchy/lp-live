@@ -2,7 +2,7 @@
 
 # $LB_ARCHITECTURES: select chroot architectures
 # (Default: autodetected)
-LB_ARCHITECTURES="amd64"
+LB_ARCHITECTURES="i386"
 
 # $LB_DISTRIBUTION: select distribution to use
 # (Default: wheezy)
