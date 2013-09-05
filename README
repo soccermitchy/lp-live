@@ -11,6 +11,7 @@ How to build:
 0. Get the repo.
 git clone https://github.com/soccermitchy/lp-live.git
 cd lp-live
+./mkdirs.sh
 
 1. Ensure your build setup is clean.
 sudo lb clean
