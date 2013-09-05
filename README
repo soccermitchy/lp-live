@@ -8,11 +8,11 @@ http://linuxpromotion.org
 Building
 =======
 How to build:
-0. Get the repo.
+0. Get the repo/live-build.
 git clone https://github.com/soccermitchy/lp-live.git
 cd lp-live
 ./mkdirs.sh
-
+sudo apt-get install live-build
 1. Ensure your build setup is clean.
 sudo lb clean
 sudo rm -rf cache/
