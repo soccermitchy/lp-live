@@ -1,0 +1,23 @@
+LinuxPromotion LiveCD Source
+===========================
+The LiveCD created to help people get used to linux while lowering the learning curve
+needed for learning Linux. Created for the Linux Promotion project.
+
+http://linuxpromotion.org
+
+Building
+=======
+How to build:
+0. Get the repo.
+git clone https://github.com/soccermitchy/lp-live.git
+cd lp-live
+
+1. Ensure your build setup is clean.
+sudo lb clean
+sudo rm -rf cache/
+
+2. Build the distro.
+sudo lb build
+
+3. Test the distro
+kvm -cdrom *.hybrid.iso
