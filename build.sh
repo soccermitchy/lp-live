@@ -1,5 +1,8 @@
 #!/bin/bash
-if [ -n "$sudo" ]; then echo "ERROR: Environent variable 'sudo' is not set. This is needed to run commands as root (eg. build)"; exit; fi
+#if [! -n "$sudo ]; then
+#	echo "ERROR: Environent variable 'sudo' is not set. This is needed to run commands as root, for example to build."
+#	exit
+#fi
 echo "########"
 echo "build step #1: deps"
 echo "########"
