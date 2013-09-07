@@ -1,11 +1,11 @@
 #!/bin/bash
-if [ -n "$sudo" ]; then echo "ERROR: Environent variable 'sudo' is not set. This is needed to run commands as root (eg. build)"; exit; done
+if [ -n "$sudo" ]; then echo "ERROR: Environent variable 'sudo' is not set. This is needed to run commands as root (eg. build)"; exit; fi
 echo "########"
 echo "build step #1: deps"
 echo "########"
 echo "Checking for live-build..."
 command -v live-build
-if [ $? == 1 ]; then echo "live-build is not installed! You may want to install it."; exit; done
+if [ $? == 1 ]; then echo "live-build is not installed! You may want to install it."; exit; fi
 echo ""
 echo ""
 echo "########"
