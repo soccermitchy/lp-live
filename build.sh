@@ -41,5 +41,5 @@ echo "########"
 echo "final stage: building"
 echo "########"
 echo "the output of this will go to stdout!"
-echo "$sudo"|sudo -S lb build --linux-flavours=i386
+echo "$sudo"|sudo -S lb build --linux-flavours i386
 
