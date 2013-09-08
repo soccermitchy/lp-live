@@ -19,13 +19,13 @@ echo "">wget.log
 echo ""
 echo "kernel files (1/1)"
 echo "- firmware images (1/4)"
-wget http://wolfmitchell.com/lp/linux-firmware-image_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-firmware-image.deb 2>&1 >> wget.log
+#wget http://wolfmitchell.com/lp/linux-firmware-image_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-firmware-image.deb 2>&1 >> wget.log
 echo "- headers (2/4)"
-wget http://wolfmitchell.com/lp/linux-headers-3.11.0-lp_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-headers.deb 2>&1 >> wget.log
+#wget http://wolfmitchell.com/lp/linux-headers-3.11.0-lp_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-headers.deb 2>&1 >> wget.log
 echo "- image (3/4)"
-wget http://wolfmitchell.com/lp/linux-image-3.11.0-lp_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-image.deb 2>&1 >> wget.log
+#wget http://wolfmitchell.com/lp/linux-image-3.11.0-lp_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-image.deb 2>&1 >> wget.log
 echo "- libc (4/4)"
-wget http://wolfmitchell.com/lp/linux-libc-dev_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-libc-dev.deb 2>61 >> wget.log
+#wget http://wolfmitchell.com/lp/linux-libc-dev_3.11.0-lp-1_i386.deb -O config/packages.chroot/linux-libc-dev.deb 2>61 >> wget.log
 echo "done with retreiving kernel images."
 echo ""
 echo ""
